@@ -1,0 +1,60 @@
+/* Copy your CSS styles here */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.popup-container {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 670px;
+    max-width: 800px; /* Increased width */
+    width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+    z-index: 1001;
+    overflow: hidden;
+}
+.popup-header {
+    display: none; /* Hide the header */
+}
+.popup-body {
+    padding: 0;
+    overflow: hidden;
+    height: 670px; /* Set the desired height */
+}
+.popup-footer {
+    display: none;
+}
+.circle-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #007bff;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+    z-index: 9999;
+}
+.iframe-container {
+    position: relative;
+    padding-bottom: 0; /* Adjust or set to 0 */
+    height: 670px;
+    overflow: hidden;
+}
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
