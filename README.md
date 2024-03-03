@@ -27,7 +27,7 @@ Once the plugin is activated and configured:
 
 1. Navigate to the 'Supervised AI Bots' settings page in the WordPress admin dashboard.
 2. Add the URLs of your Supervised AI chatbots, with one URL per line, in the provided textarea.
-3. Use the `[supervised_ai_bot]` shortcode with the `bot_id` attribute to display a specific chatbot on your WordPress pages or posts.
+3. Use the `[supervised_ai_bot]` shortcode with the `id` attribute to display a specific chatbot on your WordPress pages or posts.
 4. For real-world, use shortcodes like `[supervised_ai_bot id="1"]` Replace the id with the row number of the bot URL.
 
 ## Screenshots
